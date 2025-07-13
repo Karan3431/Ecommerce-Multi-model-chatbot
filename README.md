@@ -42,7 +42,7 @@
 - [📂 Project Structure](#-project-structure)
 - [🌍 Multi-Language Support](#-multi-language-support)
 - [⚙️ Configuration](#️-configuration)
-- [🤝 Contributing](#-contributing)
+
 - [📄 License](#-license)
 
 </details>
@@ -1111,93 +1111,7 @@ ALLOWED_FILE_TYPES=pdf,docx,txt,md
 
 </details>
 
-## 🤝 Contributing
 
-<div align="center">
-
-### 🌟 **Join Our AI Revolution!**
-
-*We welcome contributions from developers, researchers, and AI enthusiasts worldwide*
-
-![Contributors](https://img.shields.io/badge/Contributors-Welcome-brightgreen?style=for-the-badge)
-![PRs](https://img.shields.io/badge/PRs-Welcome-blue?style=for-the-badge)
-![Issues](https://img.shields.io/badge/Issues-Welcome-red?style=for-the-badge)
-
-</div>
-
-### 🚀 **How to Contribute**
-
-<details>
-<summary><b>💻 Code Contributions</b></summary>
-
-1. **🍴 Fork** the repository
-2. **🌱 Create** a feature branch (`git checkout -b feature/amazing-enhancement`)
-3. **💻 Develop** your feature with tests
-4. **✅ Test** thoroughly across all components
-5. **📝 Document** your changes
-6. **💾 Commit** with descriptive messages
-7. **📤 Push** to your feature branch
-8. **🔄 Create** a detailed Pull Request
-
-**🎯 Contribution Areas:**
-- 🤖 AI model integrations
-- 🎙️ Voice processing improvements
-- 🌍 New language support
-- 🎨 UI/UX enhancements
-- 📚 Documentation updates
-- 🐛 Bug fixes
-- ⚡ Performance optimizations
-
-</details>
-
-<details>
-<summary><b>🐛 Bug Reports & Feature Requests</b></summary>
-
-**🐛 Reporting Bugs:**
-- 🔍 Search existing issues first
-- 📝 Use the bug report template
-- 🖼️ Include screenshots/videos
-- 💻 Provide system information
-- 📋 List reproduction steps
-
-**💡 Feature Requests:**
-- 🎯 Describe the use case
-- 📊 Explain the expected benefit
-- 🔗 Reference similar implementations
-- 🎨 Include mockups if applicable
-
-</details>
-
-### 🏆 **Contributor Recognition**
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-### 👑 **Core Contributors**
-Contributors who make significant ongoing contributions to the project
-
-[![GitHub](https://img.shields.io/badge/Recognition-GitHub_Profile-black)](https://github.com)
-
-</td>
-<td width="33%" align="center">
-
-### 🌟 **Feature Contributors**  
-Contributors who add major features or improvements
-
-[![Features](https://img.shields.io/badge/Recognition-Feature_Credits-blue)](https://github.com)
-
-</td>
-<td width="34%" align="center">
-
-### 🐛 **Bug Hunters**
-Contributors who help identify and fix issues
-
-[![Bug Fixes](https://img.shields.io/badge/Recognition-Bug_Hunter-red)](https://github.com)
-
-</td>
-</tr>
-</table>
 
 ## 📄 License
 
@@ -1302,7 +1216,6 @@ copies of the Software...
 ![Code Size](https://img.shields.io/github/languages/code-size/Karan3431/Ecommerce-Multi-model-chatbot)
 ![Repo Size](https://img.shields.io/github/repo-size/Karan3431/Ecommerce-Multi-model-chatbot)
 ![Last Commit](https://img.shields.io/github/last-commit/Karan3431/Ecommerce-Multi-model-chatbot)
-![Contributors](https://img.shields.io/github/contributors/Karan3431/Ecommerce-Multi-model-chatbot)
 
 </div>
 
