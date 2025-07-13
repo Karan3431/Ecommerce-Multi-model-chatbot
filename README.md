@@ -1,18 +1,19 @@
 <div align="center">
 
-# 🤖 Multimodal Live RAG Voice Chatbot
+# 🛒 E-commerce Multimodal AI Chatbot
 
-*Advanced AI Conversational Agent with Multi-Language Voice & Document Intelligence*
+*Next-Generation Shopping Assistant with Voice AI & Document Intelligence*
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![React](https://img.shields.io/badge/React-18+-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-009688.svg?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Sarvam AI](https://img.shields.io/badge/Sarvam_AI-Multi--Language-orange.svg?style=for-the-badge)](https://www.sarvam.ai/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-[![Stars](https://img.shields.io/github/stars/yourusername/multimodal-live-rag-voice?style=social)](https://github.com/yourusername/multimodal-live-rag-voice/stargazers)
-[![Forks](https://img.shields.io/github/forks/yourusername/multimodal-live-rag-voice?style=social)](https://github.com/yourusername/multimodal-live-rag-voice/network/members)
-[![Issues](https://img.shields.io/github/issues/yourusername/multimodal-live-rag-voice?style=social)](https://github.com/yourusername/multimodal-live-rag-voice/issues)
+[![Stars](https://img.shields.io/github/stars/Karan3431/Ecommerce-Multi-model-chatbot?style=social)](https://github.com/Karan3431/Ecommerce-Multi-model-chatbot/stargazers)
+[![Forks](https://img.shields.io/github/forks/Karan3431/Ecommerce-Multi-model-chatbot?style=social)](https://github.com/Karan3431/Ecommerce-Multi-model-chatbot/network/members)
+[![Issues](https://img.shields.io/github/issues/Karan3431/Ecommerce-Multi-model-chatbot?style=social)](https://github.com/Karan3431/Ecommerce-Multi-model-chatbot/issues)
 
 </div>
 
@@ -20,9 +21,9 @@
 
 <div align="center">
   
-### 🚀 **Next-Generation AI Assistant** | 🧠 **RAG-Powered Intelligence** | 🎙️ **Multi-Language Voice Chat**
+### � **Revolutionary E-commerce Experience** | 🧠 **RAG-Powered Intelligence** | 🎙️ **Multi-Language Voice Shopping**
 
-*Seamlessly combining Google Gemini Live, Sarvam AI, and advanced document understanding*
+*Seamlessly combining Google Gemini Live, Sarvam AI, and advanced document understanding for the ultimate shopping assistant*
 
 </div>
 
@@ -43,7 +44,6 @@
 - [⚙️ Configuration](#️-configuration)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
-- [🏆 Acknowledgments](#-acknowledgments)
 
 </details>
 
@@ -51,58 +51,58 @@
 
 <div align="center">
 
-![AI Assistant](https://img.shields.io/badge/AI_Assistant-Conversational-blueviolet?style=for-the-badge)
-![Voice Chat](https://img.shields.io/badge/Voice_Chat-Multi--Language-success?style=for-the-badge)
-![Document_RAG](https://img.shields.io/badge/Document_RAG-Intelligent-orange?style=for-the-badge)
+![E-commerce AI](https://img.shields.io/badge/E--commerce_AI-Shopping_Assistant-blueviolet?style=for-the-badge)
+![Voice Chat](https://img.shields.io/badge/Voice_Shopping-Multi--Language-success?style=for-the-badge)
+![Document_RAG](https://img.shields.io/badge/Product_Intelligence-RAG_Powered-orange?style=for-the-badge)
 
 </div>
 
-> **Revolutionary AI assistant that transforms how you interact with artificial intelligence**
+> **Revolutionary e-commerce platform that transforms online shopping with AI-powered voice assistance**
 
-This cutting-edge application combines **three powerful AI modalities** to create the ultimate conversational experience:
+This cutting-edge application combines **three powerful AI modalities** to create the ultimate shopping experience:
 
 <table>
 <tr>
 <td width="33%">
 
-### 💬 **Text Chat**
-Intelligent conversations powered by Google Gemini with contextual understanding and real-time responses
+### 💬 **Smart Shopping Chat**
+Intelligent product conversations powered by Google Gemini with contextual understanding and real-time responses
 
 **🎯 Features:**
-- Natural language processing
-- Context-aware responses
+- Product recommendations
+- Context-aware responses  
 - Real-time streaming
 - Web search integration (Tavily)
 
 </td>
 <td width="33%">
 
-### 📚 **Document RAG**
-Upload and query documents with advanced retrieval-augmented generation for precise, context-based answers
+### 📚 **Product Intelligence RAG**
+Upload and query product manuals, specifications, and documents with advanced retrieval-augmented generation
 
 **🎯 Features:**
 - PDF, DOC, TXT support
-- Vector embeddings
+- Product specification search
 - Semantic search
 - Session-based memory
 
 </td>
 <td width="34%">
 
-### 🎙️ **Multi-Language Voice**
-Real-time voice conversations in 10+ Indian languages plus English using Sarvam AI and Google Gemini Live
+### 🎙️ **Multi-Language Voice Shopping**
+Real-time voice shopping in 10+ Indian languages plus English using Sarvam AI and Google Gemini Live
 
 **🎯 Features:**
-- 14 unique voice personas
+- 14 unique voice personas (Anuska default)
 - Real-time audio processing
-- Cross-language understanding
+- Cross-language shopping
 - Voice-to-text accuracy
 
 </td>
 </tr>
 </table>
 
-**🌟 What makes this special:** Seamless integration of text, voice, and document intelligence in a modern, responsive web application with enterprise-grade architecture.
+**🌟 What makes this special:** Complete e-commerce platform with seamless integration of text, voice, and document intelligence in a modern, responsive web application with enterprise-grade architecture and beautiful 3D animations.
 
 ## ✨ Key Features
 
@@ -281,8 +281,8 @@ Redis Server 7.0+
 
 ```bash
 # 1️⃣ Clone and setup
-git clone https://github.com/yourusername/multimodal-live-rag-voice.git
-cd multimodal-live-rag-voice
+git clone https://github.com/Karan3431/Ecommerce-Multi-model-chatbot.git
+cd Ecommerce-Multi-model-chatbot
 
 # 2️⃣ Backend setup
 cd server
@@ -609,7 +609,70 @@ AI: *Uses RAG* "Based on the uploaded document, here's a summary..."
 
 </details>
 
-## 🔌 API Reference
+## � Project Structure
+
+```
+Ecommerce-Multi-model-chatbot/
+├── 📁 client/                          # React TypeScript Frontend
+│   ├── 📁 src/
+│   │   ├── 📁 components/              # UI Components
+│   │   │   ├── ChatLayout.tsx          # Main chat interface
+│   │   │   ├── LiveChatModal.tsx       # Gemini voice chat
+│   │   │   ├── SarvamChatModal.tsx     # Sarvam voice chat (NEW)
+│   │   │   ├── Navigation.tsx          # Modern navigation (NEW)
+│   │   │   ├── Footer.tsx              # Footer component (NEW)
+│   │   │   └── ui/                     # shadcn/ui components
+│   │   ├── 📁 pages/                   # Application Pages (NEW)
+│   │   │   ├── HomePage.tsx            # 3D animated homepage
+│   │   │   ├── ProductsPage.tsx        # Product catalog
+│   │   │   ├── ProductPage.tsx         # Product details
+│   │   │   ├── ProfilePage.tsx         # User profile
+│   │   │   └── ChatPage.tsx            # Chat interface
+│   │   ├── 📁 hooks/                   # Custom React Hooks
+│   │   │   ├── useLiveChat.ts          # Gemini voice chat hook
+│   │   │   └── useSarvamVoiceChat.ts   # Sarvam voice chat hook (NEW)
+│   │   └── App.tsx                     # Main App component
+│   ├── package.json                    # Node.js dependencies
+│   └── tailwind.config.js              # Tailwind CSS config
+├── 📁 server/                          # FastAPI Python Backend
+│   ├── 📁 app/
+│   │   ├── 📁 api/v1/endpoints/        # API Endpoints
+│   │   │   ├── chat.py                 # Text chat endpoint
+│   │   │   ├── upload.py               # File upload endpoint
+│   │   │   └── sarvam_chat.py          # Sarvam API endpoint (NEW)
+│   │   ├── 📁 agent/                   # LangGraph Agent System
+│   │   │   ├── graph.py                # Agent workflow graph
+│   │   │   └── nodes.py                # Individual agent nodes
+│   │   ├── 📁 services/                # External Service Integrations
+│   │   │   ├── gemini_service.py       # Google Gemini integration
+│   │   │   ├── sarvam_service.py       # Sarvam AI integration (NEW)
+│   │   │   └── sarvam_api.py           # Sarvam API wrapper (NEW)
+│   │   ├── 📁 tools/                   # Agent Tools
+│   │   │   ├── web_search.py           # Tavily web search (ENHANCED)
+│   │   │   └── vector_search.py        # RAG vector search
+│   │   ├── 📁 core/                    # Core Configuration
+│   │   │   ├── config.py               # App configuration
+│   │   │   └── session.py              # Session management
+│   │   └── main.py                     # FastAPI application
+│   ├── 📁 chroma_db/                   # Vector Database Storage
+│   ├── requirements.txt                # Python dependencies
+│   └── .env                            # Environment variables
+├── README.md                           # This comprehensive guide
+└── 📁 docs/                            # Documentation
+    ├── COMPLETE_DOCUMENTATION.md       # Technical documentation
+    └── FRONTEND_ENHANCEMENT_DOCS.md    # Frontend architecture guide
+```
+
+### 🔑 **Key Files & Their Purpose**
+
+| File | Purpose | Status |
+|------|---------|--------|
+| `client/src/components/SarvamChatModal.tsx` | Multi-language voice chat UI | ✅ NEW |
+| `client/src/hooks/useSarvamVoiceChat.ts` | Sarvam voice chat logic | ✅ NEW |
+| `client/src/pages/HomePage.tsx` | 3D animated landing page | ✅ NEW |
+| `server/app/services/sarvam_service.py` | Sarvam AI integration | ✅ NEW |
+| `server/app/api/v1/endpoints/sarvam_chat.py` | Sarvam WebSocket endpoint | ✅ NEW |
+| `server/app/tools/web_search.py` | Enhanced Tavily search | ✅ ENHANCED |
 
 <div align="center">
 
@@ -1168,152 +1231,6 @@ copies of the Software...
 - 📄 Include license and copyright notice
 - 📝 State changes made to the code
 
-## 🏆 Acknowledgments
-
-<div align="center">
-
-### 🙏 **Special Thanks & Credits**
-
-*This project builds upon the excellent work of the open-source community*
-
-</div>
-
-### 🎯 **Primary Inspiration**
-
-<div align="center">
-
-**🌟 Base Project Credit**
-
-This project is **inspired by and built upon** the foundational work from:
-
-[![Original Project](https://img.shields.io/badge/Original_Project-sidhyaashu/multimodal--live--rag--voice-blue?style=for-the-badge&logo=github)](https://github.com/sidhyaashu/multimodal-live-rag-voice)
-
-**👨‍💻 Original Author:** [sidhyaashu](https://github.com/sidhyaashu)
-
-*We extend our sincere gratitude for providing the foundational architecture and inspiring this enhanced implementation.*
-
-</div>
-
-### 🚀 **Our Enhancements & Contributions**
-
-<table>
-<tr>
-<td width="50%">
-
-### ✨ **New Features Added**
-
-**🎙️ Multi-Language Voice Chat**
-- ✅ Sarvam AI integration
-- ✅ 10+ Indian languages support
-- ✅ 14 unique voice personas
-- ✅ Real-time language switching
-
-**🌐 Enhanced Web Search**
-- ✅ Tavily API integration
-- ✅ Contextual search results
-- ✅ Web content summarization
-
-**🎨 Modern Frontend Rebuild**
-- ✅ Complete React + TypeScript rewrite
-- ✅ E-commerce demo pages
-- ✅ 3D animations with Framer Motion
-- ✅ Responsive design patterns
-
-</td>
-<td width="50%">
-
-### 🔧 **Technical Improvements**
-
-**🏗️ Architecture Enhancements**
-- ✅ Modular component architecture
-- ✅ Type-safe development
-- ✅ Advanced error handling
-- ✅ Production-ready deployment
-
-**⚡ Performance Optimizations**
-- ✅ WebSocket connection management
-- ✅ Efficient state management
-- ✅ Optimized API calls
-- ✅ Memory leak prevention
-
-**📚 Documentation & Testing**
-- ✅ Comprehensive documentation
-- ✅ API reference guide
-- ✅ Setup instructions
-- ✅ Troubleshooting guides
-
-</td>
-</tr>
-</table>
-
-### 🛠️ **Technology Credits**
-
-<div align="center">
-
-### 🙏 **Powered By Amazing Technologies**
-
-</div>
-
-<table>
-<tr>
-<td width="25%">
-
-**🤖 AI & Language Models**
-- [Google Gemini](https://deepmind.google/technologies/gemini/) - Advanced AI
-- [Sarvam AI](https://www.sarvam.ai/) - Indian language AI
-- [LangChain](https://langchain.com/) - AI framework
-- [Tavily](https://tavily.com/) - Web search
-
-</td>
-<td width="25%">
-
-**⚛️ Frontend Technologies**
-- [React](https://reactjs.org/) - UI framework
-- [TypeScript](https://www.typescriptlang.org/) - Type safety
-- [Vite](https://vitejs.dev/) - Build tool
-- [Tailwind CSS](https://tailwindcss.com/) - Styling
-
-</td>
-<td width="25%">
-
-**⚙️ Backend Technologies**
-- [FastAPI](https://fastapi.tiangolo.com/) - API framework
-- [Redis](https://redis.io/) - Vector database
-- [Python](https://python.org/) - Backend language
-- [WebSockets](https://websockets.readthedocs.io/) - Real-time
-
-</td>
-<td width="25%">
-
-**🛠️ Development Tools**
-- [Node.js](https://nodejs.org/) - Runtime
-- [npm](https://npmjs.com/) - Package manager
-- [Git](https://git-scm.com/) - Version control
-- [VS Code](https://code.visualstudio.com/) - Development
-
-</td>
-</tr>
-</table>
-
-### 💝 **Community & Resources**
-
-**🌟 Special Recognition:**
-- **Open Source Community** - For incredible tools and libraries
-- **AI Research Community** - For advancing the field of artificial intelligence
-- **Developer Community** - For sharing knowledge and best practices
-- **Beta Testers** - For feedback and bug reports during development
-
-### 📊 **Development Stats**
-
-<div align="center">
-
-![Development Time](https://img.shields.io/badge/Development_Time-2_Months-blue)
-![Lines of Code](https://img.shields.io/badge/Lines_of_Code-15K+-green)
-![Languages Used](https://img.shields.io/badge/Languages-4-orange)
-![Components Built](https://img.shields.io/badge/Components-50+-purple)
-
-</div>
-
 ## 📞 Contact & Support
 
 <div align="center">
@@ -1329,17 +1246,18 @@ This project is **inspired by and built upon** the foundational work from:
 <td width="33%" align="center">
 
 ### 👨‍💻 **Project Maintainer**
-**Your Name**
+**Karan Singh**
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Karan3431)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:karan23singh66@gmail.com)
 
 </td>
 <td width="33%" align="center">
 
 ### 💼 **Professional Network**
-**Connect with us**
+**Connect with me**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karan-singh-5818411b4)
 
 </td>
 <td width="34%" align="center">
@@ -1347,7 +1265,7 @@ This project is **inspired by and built upon** the foundational work from:
 ### 🚀 **Project Repository**
 **Star & Follow**
 
-[![Repository](https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername/multimodal-live-rag-voice)
+[![Repository](https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Karan3431/Ecommerce-Multi-model-chatbot)
 
 </td>
 </tr>
@@ -1357,9 +1275,9 @@ This project is **inspired by and built upon** the foundational work from:
 
 ### 💬 **Community Support**
 
-[![Discussions](https://img.shields.io/badge/GitHub_Discussions-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername/multimodal-live-rag-voice/discussions)
-[![Issues](https://img.shields.io/badge/Report_Issues-FF0000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername/multimodal-live-rag-voice/issues)
-[![Documentation](https://img.shields.io/badge/Documentation-4285F4?style=for-the-badge&logo=googledocs&logoColor=white)](https://github.com/yourusername/multimodal-live-rag-voice/wiki)
+[![Discussions](https://img.shields.io/badge/GitHub_Discussions-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Karan3431/Ecommerce-Multi-model-chatbot/discussions)
+[![Issues](https://img.shields.io/badge/Report_Issues-FF0000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Karan3431/Ecommerce-Multi-model-chatbot/issues)
+[![Documentation](https://img.shields.io/badge/Documentation-4285F4?style=for-the-badge&logo=googledocs&logoColor=white)](https://github.com/Karan3431/Ecommerce-Multi-model-chatbot/wiki)
 
 ---
 
@@ -1367,13 +1285,13 @@ This project is **inspired by and built upon** the foundational work from:
 
 <div align="center">
 
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=yourusername.multimodal-live-rag-voice)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Karan3431.Ecommerce-Multi-model-chatbot)
 
 **⭐ Star this repository if it helped you build something amazing!**
 
 </div>
 
-*Built with ❤️, powered by AI, and enhanced for the future by [Your Name]*
+*Built with ❤️, powered by AI, and enhanced for the future by Karan Singh*
 
 ---
 
@@ -1381,10 +1299,10 @@ This project is **inspired by and built upon** the foundational work from:
 
 <div align="center">
 
-![Code Size](https://img.shields.io/github/languages/code-size/yourusername/multimodal-live-rag-voice)
-![Repo Size](https://img.shields.io/github/repo-size/yourusername/multimodal-live-rag-voice)
-![Last Commit](https://img.shields.io/github/last-commit/yourusername/multimodal-live-rag-voice)
-![Contributors](https://img.shields.io/github/contributors/yourusername/multimodal-live-rag-voice)
+![Code Size](https://img.shields.io/github/languages/code-size/Karan3431/Ecommerce-Multi-model-chatbot)
+![Repo Size](https://img.shields.io/github/repo-size/Karan3431/Ecommerce-Multi-model-chatbot)
+![Last Commit](https://img.shields.io/github/last-commit/Karan3431/Ecommerce-Multi-model-chatbot)
+![Contributors](https://img.shields.io/github/contributors/Karan3431/Ecommerce-Multi-model-chatbot)
 
 </div>
 
@@ -1401,5 +1319,12 @@ This project is **inspired by and built upon** the foundational work from:
 - 🤖 **Advanced AI Agents** - Specialized domain experts
 - 📱 **Mobile Applications** - Native iOS and Android apps
 - 🔐 **Enterprise Features** - SSO, audit logs, and advanced security
+
+---
+
+### 🙏 **Project Credits**
+
+This project was inspired by and builds upon the foundational work from [sidhyaashu/multimodal-live-rag-voice](https://github.com/sidhyaashu/multimodal-live-rag-voice).  
+Special thanks to the original author for providing the base architecture that made this enhanced implementation possible.
 
 </div>
