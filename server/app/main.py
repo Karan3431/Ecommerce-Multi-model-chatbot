@@ -2,7 +2,7 @@
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.api.v1.endpoints import chat, upload , live_chat 
+from app.api.v1.endpoints import chat, upload , live_chat, sarvam_chat 
 
 # Create the FastAPI app instance
 app = FastAPI(
@@ -32,6 +32,8 @@ app.add_middleware(
 app.include_router(chat.router, prefix="/api/v1", tags=["Chat"])
 app.include_router(upload.router, prefix="/api/v1", tags=["File Upload"])
 app.include_router(live_chat.router, prefix="/ws/v1", tags=["Live Chat"])
+app.include_router(sarvam_chat.router, prefix="/ws/v1", tags=["Sarvam Chat"])
+app.include_router(sarvam_chat.router, prefix="/api/v1", tags=["Sarvam API"])
 
 @app.get("/", tags=["Root"])
 async def read_root():

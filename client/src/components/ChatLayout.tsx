@@ -3,10 +3,11 @@ import { useChat } from '@/hooks/useChat';
 import { MessageList } from './MessageList';
 import { ChatInput } from './ChatInput';
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from './ui/card';
-import { Headphones, BrainCircuit } from 'lucide-react';
+import { Headphones, BrainCircuit, Languages, Mic } from 'lucide-react';
 import { Button } from './ui/button';
 import { LiveChatModal } from './LiveChatModal';
-import { cn } from '@/lib/utils'; // <-- Import the cn utility for conditional classes
+import { SarvamChatModal } from './SarvamChatModal';
+import { cn } from '@/lib/utils';
 
 interface ChatLayoutProps {
   sessionId: string;
@@ -24,6 +25,7 @@ export function ChatLayout({ sessionId }: ChatLayoutProps) {
   
   const [isTextRagEnabled, setIsTextRagEnabled] = useState(false);
   const [isLiveChatOpen, setIsLiveChatOpen] = useState(false);
+  const [isSarvamChatOpen, setIsSarvamChatOpen] = useState(false);
   const [isVoiceRagEnabled, setIsVoiceRagEnabled] = useState(false);
 
   return (
@@ -51,6 +53,11 @@ export function ChatLayout({ sessionId }: ChatLayoutProps) {
             <Headphones className="mr-2 h-4 w-4" />
             Live Chat
           </Button>
+          
+          <Button variant="outline" size="sm" onClick={() => setIsSarvamChatOpen(true)}>
+            <Languages className="mr-2 h-4 w-4" />
+            Indian Languages
+          </Button>
         </div>
       </CardHeader>
       <CardContent className="flex-1 p-0 overflow-hidden">
@@ -70,6 +77,12 @@ export function ChatLayout({ sessionId }: ChatLayoutProps) {
       <LiveChatModal
         isOpen={isLiveChatOpen}
         onOpenChange={setIsLiveChatOpen}
+        isRagEnabled={isVoiceRagEnabled}
+        sessionId={sessionId}
+      />
+      <SarvamChatModal
+        isOpen={isSarvamChatOpen}
+        onOpenChange={setIsSarvamChatOpen}
         isRagEnabled={isVoiceRagEnabled}
         sessionId={sessionId}
       />

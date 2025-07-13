@@ -7,7 +7,10 @@ class Settings(BaseSettings):
     # OPENAI_API_KEY: str
     # ANTHROPIC_API_KEY: str
     GOOGLE_API_KEY: str
+    GEMINI_MODEL: str = "gemini-1.5-flash"
     REDIS_URL: str = "redis://localhost:6379"
+    TAVILY_API_KEY: str = ""
+    SARVAM_API_KEY: str = ""
     
     model_config = SettingsConfigDict(
         # Tell Pydantic to read variables from a file named .env

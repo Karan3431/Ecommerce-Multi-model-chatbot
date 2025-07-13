@@ -1,5 +1,5 @@
 import redis.asyncio as redis
-from config import settings
+from app.core.config import settings
 
 from langchain_community.chat_message_histories import RedisChatMessageHistory
 

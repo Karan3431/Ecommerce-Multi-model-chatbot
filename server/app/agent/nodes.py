@@ -95,18 +95,34 @@ def generate_gemini(state: AgentState):
 
 def check_for_rag(state: AgentState):
     """
-    Checks the 'use_rag' flag passed from the frontend.
+    Enhanced router that checks for RAG, web search keywords, or direct generation.
     This node acts as a router to decide the agent's path.
     Its string return value is used by the conditional edge router.
     """
-    print(f"--- ROUTER: Checking for RAG. Flag is: {state.get('use_rag')} ---")
+    print(f"--- ROUTER: Checking routing options ---")
+    print(f"use_rag flag: {state.get('use_rag')}")
+    
+    # Priority 1: Check for explicit RAG flag
     if state.get("use_rag", False):
-        # The string "rag_retrieval" will be used for routing.
-        # The node itself returns an empty dictionary, as it doesn't modify state.
+        print("---ROUTING: RAG retrieval---")
         return "rag_retrieval"
-    else:
-        # The string "generate_direct" will be used for routing.
-        return "generate_direct"
+    
+    # Priority 2: Check for web search keywords
+    last_message = state["messages"][-1].content.lower()
+    search_keywords = [
+        "latest", "current", "recent", "news", "today", "2024", "2025",
+        "search for", "find information about", "what's happening",
+        "web search", "google", "internet", "online information",
+        "real-time", "live", "up-to-date", "newest"
+    ]
+    
+    if any(keyword in last_message for keyword in search_keywords):
+        print("---ROUTING: Web search---")
+        return "web_search"
+    
+    # Default: Direct generation
+    print("---ROUTING: Direct generation---")
+    return "generate_direct"
     
     
     
@@ -142,10 +158,63 @@ def retrieve_from_rag(state: AgentState):
 #     return {"messages": [response]}
 
 def run_web_search(state: AgentState):
-    """Node to perform web search."""
-    search_tool = web_search.get_web_search_tool()
-    search_results = search_tool.invoke({"query": state["messages"][-1].content})
-    return {"context": search_results}
+    """Node to perform web search using Tavily."""
+    print("--- NODE: Running web search ---")
+    try:
+        search_tool = web_search.get_web_search_tool()
+        user_query = state["messages"][-1].content
+        print(f"Searching for: {user_query}")
+        
+        search_results = search_tool.invoke({"query": user_query})
+        
+        # Format the search results for better context
+        if isinstance(search_results, list):
+            formatted_context = "\n\n".join([
+                f"Source: {result.get('url', 'Unknown')}\n{result.get('content', '')}"
+                for result in search_results[:3]  # Limit to top 3 results
+            ])
+        else:
+            formatted_context = str(search_results)
+        
+        print(f"Web search results: {formatted_context[:200]}...")
+        return {"context": formatted_context}
+        
+    except Exception as e:
+        print(f"Error during web search: {e}")
+        return {"context": f"Web search failed: {str(e)}. Please try asking a different question."}
+
+def generate_with_web_context(state: AgentState):
+    """
+    Generates a response using the LLM with web search context.
+    """
+    print("--- NODE: Generating response with web context ---")
+    user_query = state["messages"][-1].content
+    context = state.get("context", "")
+
+    prompt = f"""You are a helpful assistant with access to current web information. Use the following web search results to answer the user's question accurately and comprehensively.
+
+Web Search Results:
+{context}
+
+User Question: {user_query}
+
+Instructions:
+- Provide a comprehensive answer based on the search results
+- Include relevant details and sources when possible
+- If the search results don't contain enough information, say so
+- Be factual and accurate
+
+Answer:"""
+
+    try:
+        messages = [HumanMessage(content=prompt)]
+        response = llm_gemini_rag.invoke(messages)
+        print(f"Generated web response: {response.content[:100]}...")
+        return {"messages": [response]}
+    except Exception as e:
+        print(f"Error generating web response: {e}")
+        error_response = HumanMessage(content=f"I apologize, but I encountered an error while processing the web search results: {str(e)}")
+        return {"messages": [error_response]}
 
 def generate_with_context(state: AgentState):
     """
